@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#3A2418" />
+  <meta name="description" content="A little birthday surprise made with love." />
+  <title>A Birthday Made of Love ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Birthday home"><span class="brand-heart">♥</span> just for you</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#memories" class="nav-link">Our memories</a>
+      <a href="#letter" class="nav-link">A little letter</a>
+      <a href="#cake" class="nav-link nav-special">Cake time ✨</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> A special day is almost here <span></span></p>
+        <h1>To my favourite<br><em>human</em> in the world.</h1>
+        <p class="hero-sub">A tiny corner of the internet, made with a whole lot of love, just to celebrate you.</p>
+        <div class="countdown-wrap">
+          <p class="countdown-label">Counting down to your 20th birthday</p>
+          <div class="countdown" aria-live="polite">
+            <div><strong id="days">00</strong><span>days</span></div><i>:</i>
+            <div><strong id="hours">00</strong><span>hours</span></div><i>:</i>
+            <div><strong id="minutes">00</strong><span>minutes</span></div><i>:</i>
+            <div><strong id="seconds">00</strong><span>seconds</span></div>
+          </div>
+          <p class="date-note">02 · 12 · <span id="birthdayYear">2026</span></p>
+        </div>
+        <a class="primary-btn" href="#memories">Open your surprise <span>↗</span></a>
+      </div>
+      <div class="hero-art" aria-label="Cute birthday dolls illustration">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="floating-heart heart-a">♥</div><div class="floating-heart heart-b">♡</div>
+        <div class="doll doll-girl">
+          <div class="hair hair-back"></div><div class="doll-head"><span class="eye eye-left"></span><span class="eye eye-right"></span><span class="blush blush-left"></span><span class="blush blush-right"></span><span class="smile"></span></div>
+          <div class="hair hair-top"></div><div class="bow">✿</div><div class="doll-body"><span class="collar"></span><span class="dress-heart">♥</span></div><div class="doll-arm arm-left"></div><div class="doll-arm arm-right"></div><div class="doll-leg leg-left"></div><div class="doll-leg leg-right"></div>
+        </div>
+        <div class="doll doll-bear"><div class="bear-ear ear-left"></div><div class="bear-ear ear-right"></div><div class="bear-head"><span class="bear-eye be-left"></span><span class="bear-eye be-right"></span><span class="bear-muzzle">♥</span></div><div class="bear-body"><span>♡</span></div><div class="bear-foot foot-left"></div><div class="bear-foot foot-right"></div></div>
+        <div class="tiny-star star-one">✦</div><div class="tiny-star star-two">✧</div><div class="tiny-star star-three">✦</div>
+        <div class="art-caption">you are so loved <span>♡</span></div>
+      </div>
+      <a class="scroll-cue" href="#memories"><span></span> scroll to explore</a>
+    </section>
+
+    <section class="section memories-section" id="memories">
+      <div class="section-heading">
+        <p class="eyebrow">little moments, big feelings</p>
+        <h2>Our memory <em>lane</em></h2>
+        <p>Some moments deserve to be kept close. Here are a few of ours.</p>
+      </div>
+      <div class="memory-grid">
+        <figure class="memory-card memory-tall"><div class="photo-frame"><img src="assets/photos/memory-2.jpeg" alt="A sweet close-up selfie together" loading="lazy"></div><figcaption><span>01 / a favourite close moment</span><b>Right where I belong ♡</b></figcaption><span class="tape"></span></figure>
+        <figure class="memory-card memory-offset"><div class="photo-frame"><img src="assets/photos/memory-3.jpeg" alt="A dressed-up photo together" loading="lazy"></div><figcaption><span>02 / dressed up & smiling</span><b>My favourite company</b></figcaption><span class="tape"></span></figure>
+        <figure class="memory-card memory-wide"><div class="photo-frame keepsake"><img src="assets/photos/memory-1.jpeg" alt="A keepsake lanyard from a memorable day" loading="lazy"></div><figcaption><span>03 / a little keepsake</span><b>Even the little things matter</b></figcaption><span class="tape"></span></figure>
+      </div>
+      <p class="memory-footnote">More memories to make. More birthdays to celebrate. More us. <span>♥</span></p>
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <div class="letter-deco deco-left">✿</div><div class="letter-deco deco-right">♡</div>
+      <div class="letter-card">
+        <p class="eyebrow">a note from my heart</p>
+        <h2>For the girl who makes<br><em>ordinary days glow.</em></h2>
+        <div class="letter-rule"><span>♥</span></div>
+        <p class="letter-text">Happy 20th birthday, my love. I hope this new chapter brings you the softest mornings, the loudest laughter, beautiful surprises, and every little thing your heart has been wishing for.</p>
+        <p class="letter-text">Thank you for being you. I’m grateful for every smile, every silly moment, and every memory we get to make. Keep shining, keep dreaming, and never forget how special you are.</p>
+        <p class="letter-sign">All my love, <span>your favourite person ♡</span></p>
+      </div>
+      <div class="letter-doodle">♡</div>
+    </section>
+
+    <section class="section cake-section" id="cake">
+      <div class="section-heading cake-heading">
+        <p class="eyebrow">the sweetest part</p>
+        <h2>Make a wish, <em>birthday girl!</em></h2>
+        <p>Tap the candles to blow them out, then cut your birthday cake.</p>
+      </div>
+      <div class="cake-stage">
+        <div class="cake-sparkle sparkle-a">✦</div><div class="cake-sparkle sparkle-b">✧</div>
+        <div class="cake" id="cakeGraphic">
+          <div class="candles" id="candles">
+            <button class="candle" aria-label="Blow out candle 1"><span class="flame"></span><i></i></button>
+            <button class="candle" aria-label="Blow out candle 2"><span class="flame"></span><i></i></button>
+            <button class="candle" aria-label="Blow out candle 3"><span class="flame"></span><i></i></button>
+          </div>
+          <div class="cake-top"><span class="icing-drip drip-one"></span><span class="icing-drip drip-two"></span><span class="icing-drip drip-three"></span><span class="cake-berry">♥</span></div>
+          <div class="cake-layer layer-top"></div><div class="cake-layer layer-bottom"></div><div class="cake-plate"></div>
+          <div class="cake-cut-line"></div>
+        </div>
+        <div class="cake-doll"> <span class="doll-mini-face">☺</span><span class="doll-mini-body">♡</span><span class="doll-mini-caption">birthday princess</span></div>
+      </div>
+      <div class="cake-actions">
+        <button class="primary-btn" id="blowBtn">Blow out the candles <span>✧</span></button>
+        <button class="secondary-btn" id="micBtn">Use microphone <span>♫</span></button>
+        <button class="secondary-btn" id="cutBtn" disabled>Cut the cake <span>♡</span></button>
+      </div>
+      <p class="cake-status" id="cakeStatus" aria-live="polite">Close your eyes, make a wish, and tap to blow! ✨</p>
+      <div class="wish-reveal" id="wishReveal" hidden><span class="wish-heart">♥</span><h3>Your wish is on its way!</h3><p>May your 20th year be as lovely as your heart.</p><button class="text-btn" id="sliceBtn">One more thing… cut the cake ↗</button></div>
+    </section>
+
+    <section class="finale section">
+      <div class="finale-heart">♥</div><p class="eyebrow">until all the birthdays to come</p><h2>Happy 20th birthday,<br><em id="birthdayName">my sweetest girl.</em></h2><p>Today, tomorrow, and always — you deserve all the love.</p>
+      <a href="#home" class="back-top">Back to the top ↑</a>
+    </section>
+  </main>
+  <footer>Made with <span>♥</span> and a little bit of magic · December 2</footer>
+  <div class="confetti-layer" id="confettiLayer" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
